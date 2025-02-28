@@ -1,14 +1,10 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    
+    
+    // Carta 01
     char estado_1;
     char nomecidade_1[50];
     char codigocarta_1[5];
@@ -17,7 +13,7 @@ int main() {
     float pib_1;
     int pontosTuristicos_1;
 
-    
+    // Carta 02
     char estado_2;
     char nomecidade_2[50];
     char codigocarta_2[5];
@@ -29,9 +25,8 @@ int main() {
 
 
     // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
+
+    // Leitura dos dados da Carta 01
     printf("Carta 01\n");
     printf("Digite a letra do estado de A-H:\n");
     scanf(" %c", &estado_1);
@@ -48,6 +43,7 @@ int main() {
     printf("Digite a quantidade de pontos turisticos da sua cidade:\n");
     scanf(" %d", &pontosTuristicos_1);
 
+   // Leitura dos dados da Carta 02
     printf("\nCarta 02\n");
     printf("Digite a letra do estado de A-H:\n");
     scanf(" %c", &estado_2);
@@ -65,9 +61,8 @@ int main() {
     scanf(" %d", &pontosTuristicos_2);
 
     // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
+    
+    // Exibição dos dados da Carta 01
     printf("\nCarta 01:\n");
 
     printf("Estado: %c\n", estado_1);
@@ -79,7 +74,7 @@ int main() {
     printf("Pontos turisticos: %d\n", pontosTuristicos_1);
 
 
-
+    // Exibição dos dados da Carta 02
     printf("\nCarta 02:\n");
 
     printf("Estado: %c\n", estado_2);
